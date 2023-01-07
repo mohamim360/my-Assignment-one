@@ -46,6 +46,7 @@
   margin-left: 170px;
 }
 .girl {
+  background-color:#F15B2233;
 }
 .secondintro {
   margin-top: 290px;
@@ -106,6 +107,33 @@
   text-align: center;
   color: #737272;
 }
+/* Guidance */
+.Guidance{
+  display: flex;
+  justify-content:left;
+  background-image:url("./images/conversation-g8592f6d2e_1280.jpg");
+  width:1140px;
+  height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 170px;
+  border-radius: 8px;
+}
+.Guidance-details{
+ margin-top:80px;
+ margin-left: 100px;
+ 
+}
+.Guidance-details h2{
+  width: 450px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 30px;
+  color:gray;
+ 
+  
+ }
 /* Gradient */
 .background {
   background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
@@ -113,7 +141,7 @@
   width: 1140px;
   height: 300px;
   margin-left: 175px;
-
+ margin-top: 130px;
   border-radius: 8px;
 }
 .background-content {

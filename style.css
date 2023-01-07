@@ -3,17 +3,15 @@
   font-family: "Work Sans";
 }
 .header {
-  
   background-image: url("./images/banner/banner1.png");
   margin-bottom: 131px;
   display: flex;
   background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .intro {
-  
-   margin-left: 715px;
+  margin-left: 1019px;
 }
 .title {
   margin-top: 216px;
@@ -30,7 +28,6 @@ background-size: cover;
   width: 494px;
   height: 78px;
   font-weight: 400;
-  
 }
 .contact {
   margin-top: 32px;
@@ -44,40 +41,67 @@ background-size: cover;
   margin-left: 305px;
   margin-bottom: 116px;
 }
-.past{
+.past {
   display: flex;
+  margin-left: 170px;
 }
-.girl{
+.girl {
   
-margin-left:90px ;
- 
 }
-.secondintro{
- margin-top: 290px;
- margin-left: 87px;
+.secondintro {
+  margin-top: 290px;
+  margin-left: 87px;
 }
-.title1{
-  
+.title1 {
+  width: 288px;
+  height: 94px;
   font-weight: 700;
-font-size: 40px;
-color: #151414;
-margin-bottom: 24px;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 13px;
 }
-.description1{
+.description1 {
+  width: 416px;
+  height: 104px;
   font-weight: 400;
-font-size: 16px;
-color: #444343;
-margin-bottom: 16px;
-
+  font-size: 16px;
+  color: #444343;
 }
-.advice span{
-  color:#16D887 ;
+.advice span {
+  color: #16d887;
   margin-right: 5px;
 }
-.advice p{
+.advice p {
   font-size: 16px;
   font-weight: 400;
-color: #444343;
-margin-bottom: 8px;
+  color: #444343;
+  margin-bottom: 8px;
 }
+.plan {
+  text-align: center;
+}
+.plan-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 52px;
+  margin-top: 130px;
+}
+.plan-des {
+  display: flex;
+  gap: 86px;
+  justify-content: center;
+}
+.plan-des h4 {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #151414;
+}
+.plan-des p {
+  font-weight: 500;
+  font-size: 25px;
 
+  text-align: center;
+  color: #737272;
+}

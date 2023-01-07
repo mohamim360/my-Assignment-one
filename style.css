@@ -51,6 +51,7 @@
 .secondintro {
   margin-top: 290px;
   margin-left: 87px;
+ 
 }
 .title1 {
   width: 288px;
@@ -79,6 +80,7 @@
 }
 .plan {
   text-align: center;
+  margin-bottom: 135px;
 }
 .plan-title {
   font-weight: 700;
@@ -105,4 +107,49 @@
 
   text-align: center;
   color: #737272;
+}
+
+.background{
+  
+  background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("./images/watch.png");
+  width: 1140px;
+height: 300px;
+margin-left: 160px;
+
+border-radius: 8px;
+align-items:;
+}
+.background-content{
+  padding-top: 55px;
+  margin-left: 64px;
+}
+.background h3{
+  width: 459px;
+height: 94px;
+font-weight: 700;
+font-size: 40px;
+color: white;
+
+margin-bottom: 24px;
+
+
+}
+.background .call{
+  width: 160px;
+height: 64px;
+background: #FFFFFF;
+border-style: none;
+border-radius: 5px;
+
+}
+.background .call-text
+{
+  padding: 20px 36px;
+  width: 88px;
+height: 23px;
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+
+color: #005FAC;
 }

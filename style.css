@@ -8,10 +8,13 @@
   background-image: url("./../images/banner/banner1.png");
   margin-bottom: 131px;
   display: flex;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .intro {
   
-  margin-left: 715px;
+   margin-left: 715px;
 }
 .title {
   margin-top: 216px;
@@ -44,7 +47,7 @@
 }
 .girl{
   
-
+margin-left:90px ;
  
 }
 .secondintro{

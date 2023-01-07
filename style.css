@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  font-family: "Work Sans";
+}
+.header {
+  width: 1600px;
+  height: 808px;
+  background-image: url("/images/banner/banner1.png");
+  margin-bottom: 131px;
+  display: flex;
+}
+.intro {
+  
+  margin-left: 715px;
+}
+.title {
+  margin-top: 216px;
+  font-size: 65px;
+  width: 500px;
+  height: 228px;
+  margin-bottom: 24px;
+}
+.des {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  width: 494px;
+  height: 78px;
+}
+.contact {
+  margin-top: 32px;
+  background: #f15b22;
+  border-radius: 5px;
+  color: white;
+  border-style: none;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 21px 25px;
+  margin-left: 305px;
+  margin-bottom: 116px;
+}
+.past{
+  display: flex;
+}
+.girl{
+  
+
+ 
+}
+.secondintro{
+ margin-top: 290px;
+ margin-left: 87px;
+}
+.title1{
+  
+width: 288px;
+height: 94px;
+font-size: 40px;
+color: #151414;
+margin-bottom: 24px;
+}
+.description1{
+width: 416px;
+height: 70px;
+font-size: 16px;
+color: #444343;
+margin-bottom: 16px;
+
+}
+.advice span{
+  color:#16D887 ;
+  margin-right: 5px;
+}
+.advice p{
+  font-size: 16px;
+  width: 350px;
+height: 26px;
+color: #444343;
+margin-bottom: 8px;
+}

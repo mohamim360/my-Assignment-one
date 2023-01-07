@@ -3,9 +3,8 @@
   font-family: "Work Sans";
 }
 .header {
-  width: 1600px;
-  height: 808px;
-  background-image: url("../../images/banner/banner1.png");
+  
+  background-image: url("../images/banner/banner1.png");
   margin-bottom: 131px;
   display: flex;
   background-position: center;

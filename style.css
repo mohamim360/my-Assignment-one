@@ -46,12 +46,10 @@
   margin-left: 170px;
 }
 .girl {
-  
 }
 .secondintro {
   margin-top: 290px;
   margin-left: 87px;
- 
 }
 .title1 {
   width: 288px;
@@ -108,48 +106,95 @@
   text-align: center;
   color: #737272;
 }
-
-.background{
-  
-  background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("./images/watch.png");
+/* Gradient */
+.background {
+  background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url("./images/watch.png");
   width: 1140px;
-height: 300px;
-margin-left: 160px;
+  height: 300px;
+  margin-left: 175px;
 
-border-radius: 8px;
-align-items:;
+  border-radius: 8px;
 }
-.background-content{
+.background-content {
   padding-top: 55px;
   margin-left: 64px;
 }
-.background h3{
+.background h3 {
   width: 459px;
-height: 94px;
-font-weight: 700;
-font-size: 40px;
-color: white;
-
-margin-bottom: 24px;
-
-
+  height: 94px;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 24px;
 }
-.background .call{
+.call {
   width: 160px;
-height: 64px;
-background: #FFFFFF;
-border-style: none;
-border-radius: 5px;
-
+  height: 64px;
+  background: #ffffff;
+  border-style: none;
+  border-radius: 5px;
 }
-.background .call-text
-{
+.call-text {
   padding: 20px 36px;
   width: 88px;
-height: 23px;
-font-weight: 600;
-font-size: 20px;
-text-align: center;
+  height: 23px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #005fac;
+}
+/* footer */
+.footer {
+  display: flex;
+  margin-top: 130px;
+  background: #151414;
+  padding: 100px 250px;
+  gap: 320px;
+  color: white;
+}
+.footer-des {
+  margin-bottom: 32px;
+}
+.footer-des h3 {
+  width: 148px;
+  height: 53px;
+  font-weight: 700;
+  font-size: 45px;
+}
+.p1 {
+  margin-top: 16px;
+  width: 485px;
+  height: 78px;
+}
+.footer-des p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.subscribe h3 {
+  width: 123px;
+  height: 29px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.email {
+  padding: 21px 158px 22px 21px;
+  box-sizing: border-box;
+  width: 325px;
+  height: 64px;
 
-color: #005FAC;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: #151414;
+  margin-top: 31px;
+}
+.subscribe-button {
+  width: 170px;
+  height: 64px;
+  background: #005fac;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 16px;
 }

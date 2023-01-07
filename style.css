@@ -2,31 +2,32 @@
   margin: 0;
   font-family: "Work Sans";
 }
+/* header */
 .header {
   background-image: url("./images/banner/banner1.png");
-  margin-bottom: 131px;
+  width: 100%;
+  height: 100vh;
   display: flex;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  justify-content: right;
+  text-align: right;
+  align-items: center;
+  margin-bottom: 131px;
 }
-.intro {
-  margin-left: 1019px;
+.banner {
+ margin-right: 200px;
 }
-.title {
-  margin-top: 216px;
-  font-size: 65px;
-  font-weight: 700;
+.banner-title {
   width: 500px;
   height: 228px;
+  font-size: 65px;
+  font-weight: 700;
   margin-bottom: 24px;
 }
-.des {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 16px;
+.banner-des {
   width: 494px;
   height: 78px;
+  font-size: 16px;
   font-weight: 400;
 }
 .contact {
@@ -38,21 +39,19 @@
   font-weight: 600;
   font-size: 20px;
   padding: 21px 25px;
-  margin-left: 305px;
-  margin-bottom: 116px;
 }
+/* past */
 .past {
   display: flex;
-  margin-left: 170px;
+  justify-content: center;
+  align-items: center;
 }
-.girl {
-  background-color:#F15B2233;
-}
-.secondintro {
-  margin-top: 290px;
+
+.failures {
   margin-left: 87px;
+  margin-top: 145px;
 }
-.title1 {
+.failures-title {
   width: 288px;
   height: 94px;
   font-weight: 700;
@@ -60,7 +59,7 @@
   color: #151414;
   margin-bottom: 13px;
 }
-.description1 {
+.failures-description {
   width: 416px;
   height: 104px;
   font-weight: 400;
@@ -77,6 +76,7 @@
   color: #444343;
   margin-bottom: 8px;
 }
+/* future plan */
 .plan {
   text-align: center;
   margin-bottom: 135px;
@@ -85,8 +85,8 @@
   font-weight: 700;
   font-size: 40px;
   color: #151414;
-  margin-bottom: 52px;
   margin-top: 130px;
+  margin-bottom: 52px;
 }
 .plan-des {
   display: flex;
@@ -108,47 +108,42 @@
   color: #737272;
 }
 /* Guidance */
-.Guidance{
+.Guidance {
   display: flex;
-  justify-content:left;
-  background-image:url("./images/conversation-g8592f6d2e_1280.jpg");
-  width:1140px;
+  justify-content: left;
+  background-image: url("./images/conversation-g8592f6d2e_1280.jpg");
+  width: 1140px;
   height: 380px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 170px;
+  margin-left: 265px;
   border-radius: 8px;
 }
-.Guidance-details{
- margin-top:80px;
- margin-left: 100px;
- 
+.Guidance-details {
+  margin-top: 80px;
+  margin-left: 100px;
 }
-.Guidance-details h2{
-  width: 450px;
-  height: 40px;
+.Guidance-details h2 {
   font-weight: 700;
   font-size: 30px;
-  color:gray;
- 
-  
- }
+  color: gray;
+}
 /* Gradient */
-.background {
+.gradient {
   background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
     url("./images/watch.png");
   width: 1140px;
   height: 300px;
-  margin-left: 175px;
- margin-top: 130px;
+  margin-left: 265px;
+  margin-top: 130px;
   border-radius: 8px;
 }
-.background-content {
+.gradient-content {
   padding-top: 55px;
   margin-left: 64px;
 }
-.background h3 {
+.gradient h3 {
   width: 459px;
   height: 94px;
   font-weight: 700;
@@ -157,19 +152,14 @@
   margin-bottom: 24px;
 }
 .call {
-  width: 160px;
-  height: 64px;
   background: #ffffff;
   border-style: none;
   border-radius: 5px;
 }
 .call-text {
   padding: 20px 36px;
-  width: 88px;
-  height: 23px;
   font-weight: 600;
   font-size: 20px;
-  text-align: center;
   color: #005fac;
 }
 /* footer */
@@ -177,48 +167,46 @@
   display: flex;
   margin-top: 130px;
   background: #151414;
-  padding: 100px 250px;
-  gap: 320px;
+  width: 100%;
+  height: 50vh;
+  justify-content: space-around;
+  align-items: center;
   color: white;
 }
-.footer-des {
+.footer-title {
   margin-bottom: 32px;
 }
-.footer-des h3 {
-  width: 148px;
-  height: 53px;
+.footer-title h3 {
   font-weight: 700;
   font-size: 45px;
 }
 .p1 {
-  margin-top: 16px;
+  margin-top: 13px;
   width: 485px;
   height: 78px;
 }
-.footer-des p {
+.footer-title p {
   font-weight: 400;
   font-size: 16px;
 }
+.subscribe {
+  flex-direction: column;
+  margin-bottom: 60px;
+}
 .subscribe h3 {
-  width: 123px;
-  height: 29px;
   font-weight: 600;
   font-size: 25px;
 }
 .email {
   padding: 21px 158px 22px 21px;
-  box-sizing: border-box;
-  width: 325px;
-  height: 64px;
-
+  color: white;
   border: 1px solid #ffffff;
   border-radius: 8px;
   background-color: #151414;
   margin-top: 31px;
 }
 .subscribe-button {
-  width: 170px;
-  height: 64px;
+  padding: 19px 20px;
   background: #005fac;
   border-radius: 8px;
   color: white;
